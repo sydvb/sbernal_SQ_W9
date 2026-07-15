@@ -1,12 +1,8 @@
-# Week 9 Example 3 — Higher or Lower
+# Week 9 Sidequest — Higher or Lower | Sydney Bernal
 
-## What This Example Demonstrates
-
-> **Note for students:** This section is included in example files only to help you study. Do not include it in your Side Quest submissions.
+## What This Code Demonstrates
 
 This example introduces a Higher or Lower card guessing game across 3 JSON-driven levels. A card is shown face up — guess whether the next card in the shuffled deck is higher or lower. Reach the target score to advance. Guess wrong and it's game over.
-
-**This example has no debug panel — adding one is your side quest task.**
 
 - **Three JSON levels** — same `loadJSON()` pattern as Example 2; all three files loaded in `preload()` and stored by number in `levelData`
 - **`loadLevel(num)`** — reads the JSON for that level, shuffles the deck with Fisher-Yates, positions the buttons, and resets per-level tracking; same pattern as Example 2

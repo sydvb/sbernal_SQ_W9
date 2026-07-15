@@ -429,10 +429,9 @@ function drawStartScreen() {
   textSize(16);
   text("Click to start", width / 2, height / 2 + 80);
 
-  // Hint for students — no debug panel yet
-  fill(60);
+  fill(255, 70);
   textSize(11);
-  text("No debug panel yet — that's your job!", width / 2, height - 20);
+  text("Press D to toggle debug panel!", width / 2, height - 20);
 }
 
 // ------------------------------------------------------------

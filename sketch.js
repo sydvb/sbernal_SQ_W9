@@ -431,7 +431,7 @@ function drawStartScreen() {
 
   fill(255, 70);
   textSize(11);
-  text("Press D to toggle debug panel!", width / 2, height - 20);
+  text("Press D to toggle debug panel.", width / 2, height - 20);
 }
 
 // ------------------------------------------------------------
